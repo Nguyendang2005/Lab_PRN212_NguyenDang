@@ -1,0 +1,32 @@
+# Ignore other projects and files in Hoc_web_C#
+/Bai2/
+/ConsoleApp1/
+/DemoConsole/
+/Login/
+/New folder/
+/bai1/
+/bai1_oop_loadfile/
+/lab2_PRN212/
+/lab3_NguyenDang_De190324/
+/oop/
+/oop2/
+/oop_nangcao/
+/vui_c#/
+
+/DemoDesignPattern_NguyenDang.zip
+/Lab1_NguyenDang_DE190324_SE20A02.docx
+/Lab2_NguyenDang_DE190324.zip
+/Lab3_NguyenDang_DE19324_Genegic_Collection.zip
+/Lab_2_NguyenDang.cs
+/SQLQuery1.sql
+/de_bai_oop.md
+
+# Ignore build artifacts, IDE configurations, and user files inside the lab directories
+**/bin/
+**/obj/
+**/.vs/
+**/*.user
+**/*.suo
+**/*.userprefs
+**/Thumbs.db
+**/.DS_Store
