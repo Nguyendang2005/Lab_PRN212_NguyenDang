@@ -78,11 +78,13 @@ Chương trình được chia thành 3 phần rõ rệt ứng với các Slide l
 *Đường dẫn mã nguồn chính:* [Program.cs](file:///d:/Hoc_web_C%23/Lab_PRN212_NguyenDang/Lab3_collection_Generic/Lab3_collection_Generic/Program.cs)
 
 #### 📝 Giới thiệu & Mục tiêu
-Project đóng vai trò là khung chương trình sơ khởi được tạo sẵn nhằm chuẩn bị cho việc thực hành các kiến thức tiếp theo về **Tập hợp (Collections)** và **Lớp tổng quát (Generics)** trong C#.
+Project thực hành nâng cao về **Tập hợp (Collections)** và **Lớp tổng quát (Generics)** trong C#, giải quyết 4 bài tập thực tế từ cơ bản đến nâng cao.
 
 #### ⚙️ Các khái niệm & Kiến thức áp dụng
-*   Khởi tạo cấu trúc dự án chuẩn .NET.
-*   Chuẩn bị sẵn file `Class1.cs` (được đặt tên đặc biệt là `.cs`) để người học định nghĩa các tập hợp Generic như `List<T>`, `Dictionary<TKey, TValue>` hoặc các kiểu cấu trúc dữ liệu tùy chọn của riêng mình.
+*   **Bài 1: Generic Calculator**: Xây dựng lớp máy tính tổng quát `GenericCalculator<T>` thực hiện các phép toán cộng, trừ, nhân, chia cho các kiểu dữ liệu số tùy ý thông qua việc ép kiểu động `dynamic`. Xử lý ngoại lệ chia cho 0 an toàn.
+*   **Bài 2: Generic Collection**: Sử dụng `List<Product>` lưu trữ và quản lý danh sách sản phẩm với các thuộc tính `Name`, `Cost`, `Quantity`. Nạp chồng phương thức `ToString()` để hiển thị thông tin sản phẩm trực quan.
+*   **Bài 3: Hashtable**: Sử dụng cấu trúc dữ liệu phi generic `Hashtable` lưu trữ các ngày trong tuần (Key là số từ 1-7, Value là chuỗi tên ngày). Tìm kiếm phần tử chỉ định (`Tuesday`) và duyệt qua toàn bộ tập hợp sử dụng `DictionaryEntry`.
+*   **Bài 4: Generic Swap**: Xây dựng phương thức generic tĩnh `Swap<T>(ref T a, ref T b)` hỗ trợ hoán đổi giá trị của hai biến thuộc kiểu dữ liệu bất kỳ (số nguyên, chuỗi...).
 
 ---
 
